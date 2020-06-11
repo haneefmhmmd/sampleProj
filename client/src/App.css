@@ -1,0 +1,131 @@
+
+/* //F8F9FA bg */
+/* 2DA949-hover */
+
+.Navbar{
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #F8F9FA; 
+  box-sizing: border-box;
+  width: 100%;  
+}
+h3{
+  float: left;
+  color: brown ;
+  margin: 1% 0;
+  font-size: 30px;
+}
+.navButton{
+  float: right;
+  margin: 15px 7px;
+  border-radius: 5px;
+  border: 0;
+  padding: 0px;
+  width: 80px;
+  height: 40px;
+  border: 1px grey solid;
+  outline: 0;
+  text-align: center;
+  transition-duration: 0.4s;
+  outline: 0;
+}
+h6{
+  margin: 0 0 0 25px ;
+}
+span{
+  color: blue;
+  font-size: large;
+}
+
+.navButton:hover{
+  background-color:brown ;
+  cursor: pointer;
+  border: 1px grey solid;
+  outline: 0;
+}
+
+.loginButton{
+  float: right;
+  margin: auto 5px;
+  border-radius: 5px;
+  border: 0;
+  padding: 0px;
+  width: 80px;
+  height: 40px;
+  border: 1px grey solid;
+  outline: 0;
+  text-align: center;
+  transition-duration: 0.4s;
+  outline: 0;
+}
+.loginButton:hover{
+  background-color:brown ;
+  cursor: pointer;
+  border: 1px grey solid;
+  outline: 0;
+}
+
+
+.logindiv{
+  margin: 25px auto;
+  border: 1px grey solid;
+  width: 300px;
+  height: 380px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #F8F9FA; 
+}
+
+
+.Registrationdiv{
+  margin: 25px auto;
+  border: 1px grey solid;
+  width: 300px;
+  height: 430px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #F8F9FA; 
+}
+
+.inputdiv{
+  margin: 3% 1%;
+}
+.formLabel,.formInput{
+  margin:3px 20px;
+}
+.formInput{
+  width: 80%;
+  border-radius: 3px;
+  border: 1px grey solid;
+  padding: 4px;
+}
+h2{
+  margin: 10% 0 0 0;
+  text-align: center;
+}
+
+.submitButton{
+  float: none;
+  margin: 3% 0 0 7%;
+  text-align: center;
+}
+
+
+
+span:hover{
+  cursor: pointer;
+}
+button:focus{
+  outline: 0;
+}
+
+@media only screen and (max-width : 600px){
+  .Navbar button{
+    margin-top: 10px;
+  }
+  .Navbar h3{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
